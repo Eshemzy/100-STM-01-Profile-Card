@@ -37,6 +37,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  /* border: 1px solid #000; */
 }
 body, html {
   font-family: "Montserrat", sans-serif;
@@ -61,4 +62,38 @@ body, html {
   min-height: 50vh;
   background: var(--clr-light);
   padding: clamp(0.25rem, -0.1rem + 2vw, 0.5rem);
+  border-radius: var(--radius-3);
+  border: 1px solid darkgray;
+}
+
+.profile__header {
+  height: clamp(7rem, 4.2rem + 16vw, 9rem);
+  border-radius: var(--radius-2);
+  background: linear-gradient(135deg, var(--clr-sec) 50%, var(--clr-pry) 50%);
+  padding: clamp(0.25rem, -0.1rem + 2vw, 0.5rem);
+  overflow: hidden;
+  display: flex;
+  justify-content: flex-end;
+}
+a.cta-btn {
+  align-self: start;
+  display: inline-block;
+  text-decoration: none;
+  color: var(--clr-dark);
+  background: var(--clr-sec);
+  padding:  0.2em 0.75em;
+  border-radius: var(--radius-1);
+  font-weight: 600;
+  font-size: clamp(0.75rem, 0.4rem + 2vw, 1rem);
+}
+
+.profile__avatar {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  position: relative;
+}
+.avatar {
+}
+.avatar img {
+  position: absolute;
 }

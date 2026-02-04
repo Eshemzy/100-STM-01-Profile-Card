@@ -86,14 +86,3 @@ a.cta-btn {
   font-weight: 600;
   font-size: clamp(0.75rem, 0.4rem + 2vw, 1rem);
 }
-
-.profile__avatar {
-  display: grid;
-  grid-template-columns: auto 1fr;
-  position: relative;
-}
-.avatar {
-}
-.avatar img {
-  position: absolute;
-}

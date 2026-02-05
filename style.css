@@ -179,3 +179,18 @@ a.cta-btn {
 .stat-align:not(:last-child) {
   border-right: 1px solid #c7c7c7;
 }
+
+.profile__footer {
+  max-width: 30%;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  text-align: center;
+  margin-inline: auto;
+}
+.fa-brands {
+  border-right: 1px solid #c7c7c7;
+  padding: 0.5rem;
+}
+.fa-tiktok {
+  border: none;
+}

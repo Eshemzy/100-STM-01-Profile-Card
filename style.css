@@ -61,7 +61,7 @@ body, html {
   background: var(--clr-light);
   padding: clamp(0.25rem, -0.1rem + 2vw, 0.5rem);
   border-radius: clamp(1rem, 0.3rem + 4vw, 1.5rem);
-  border: 1px solid darkgray;
+  border: 2px solid darkgray;
   display: grid;
   grid-template-rows: auto 1fr 1fr auto auto auto;
   gap: 0.5rem;
@@ -103,7 +103,7 @@ a.cta-btn {
   display: flex;
   justify-content: flex-end;
   align-items: center;
-  padding: 0 clamp(0.5rem, -2.3rem + 16vw, 2.5rem);
+  padding: 0 5%;
 }
 .experience-wrapper {
   display: flex;
@@ -220,4 +220,51 @@ i.fa-brands {
 }
 .fa-eye {
   color: #e025e0ad;
+}
+
+@media screen and (min-width: 481px) and (max-width: 575px) {
+  .web-cont {
+    padding: clamp(2.25rem, -2.867rem + 17.02vw, 3.25rem);
+  }
+  .card {
+    gap: clamp(0.6rem, -1.447rem + 6.81vw, 1rem);
+  }
+  .profile__header img {
+    max-width: clamp(8.76rem, 2.415rem + 21.11vw, 10rem);
+  }
+  .experience-wrapper p {
+    font-size: clamp(0.9rem, -0.123rem + 3.4vw, 1.1rem);
+  }
+  .profile__summary h1 {
+    font-size: clamp(1.5rem, -1.059rem + 8.51vw, 2rem);
+  }
+  .profile__summary p {
+    font-size: clamp(0.9rem, 0.388rem + 1.7vw, 1rem);
+  }
+  .profile__stats {
+    margin-inline: 5%;
+  }
+  .profile__contact {
+    gap: clamp(0.5rem, -2.059rem + 8.51vw, 1rem);
+  }
+  .stat {
+    padding: clamp(1rem, -1.559rem + 8.51vw, 1.5rem) 0;
+  }
+  p.stat-number {
+    font-size: clamp(0.9rem, -0.123rem + 3.4vw, 1.1rem);
+  }
+  .stat-label i {
+    font-size: clamp(1.3rem, 0.277rem + 3.4vw, 1.5rem);
+  }
+  .stat-label span {
+    font-size: clamp(0.9rem, -0.123rem + 3.4vw, 1.1rem);
+  }
+
+  .profile__footer {
+  gap: clamp(0.5rem, -2.059rem + 8.51vw, 1rem);
+  }
+  i.fa-brands {
+    font-size: clamp(1rem, -0.535rem + 5.11vw, 1.3rem);
+    padding: clamp(0.5rem, 0.22rem + 1.6vw, 0.7rem) clamp(0.  7rem, 0.42rem + 1.6vw, 0.9rem);
+  }
 }

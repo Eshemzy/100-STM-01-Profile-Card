@@ -352,3 +352,38 @@ i.fa-brands {
     padding: clamp(0.5rem, 0.143rem + 0.74vw, 0.7rem) clamp(0.7rem, 0.343rem + 0.74vw, 0.9rem);
   }
 }
+@media screen and (min-width: 1200px) {
+  .experience-wrapper p {
+    font-size: 1.1rem;
+  }
+  .profile__summary h1 {
+    font-size: 2rem;
+  }
+  .profile__summary p {
+    font-size: 1rem;
+  }
+  .profile__stats {
+    margin-inline: 5%;
+  }
+  .profile__contact {
+    gap: 1rem;
+  }
+  .stat {
+    padding: 1.5rem 0;
+  }
+  p.stat-number,
+  .stat-label span {
+    font-size: 1.1rem;
+  }
+  .stat-label i {
+    font-size: 1.5rem;
+  }
+
+  .profile__footer {
+    gap: 1rem;
+  }
+  i.fa-brands {
+    font-size: 1.3rem;
+    padding: 0.7rem 0.9rem;
+  }
+}

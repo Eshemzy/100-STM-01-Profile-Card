@@ -17,7 +17,9 @@ FOCUS:
 - responsiveness
 - spacing
 
-  One Major Lesson Learnt here is:
+
+One Major Lesson Learnt here is:
+ 
   "Its best to have a vision and be able to map out that vision, so as
   to follow through with it without fail; but whats even better is to have
   a dynamic mindest, in that there is always some other type of way to

@@ -316,7 +316,6 @@ i.fa-brands {
   }
 }
 
-
 @media screen and (min-width: 769px) and (max-width: 1200px) {
   .experience-wrapper p {
     font-size: clamp(0.9rem, 0.543rem + 0.74vw, 1.1rem);
@@ -352,6 +351,7 @@ i.fa-brands {
     padding: clamp(0.5rem, 0.143rem + 0.74vw, 0.7rem) clamp(0.7rem, 0.343rem + 0.74vw, 0.9rem);
   }
 }
+
 @media screen and (min-width: 1200px) {
   .experience-wrapper p {
     font-size: 1.1rem;

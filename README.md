@@ -6,8 +6,8 @@ where I build 100 HTML & CSS projects to deepen my frontend
 fundamentals.
 
 Built with:
--HTML5
--CSS3
+- HTML5
+- CSS3
 
 
 <img width="1366" height="768" alt="100-STM-01" src="https://github.com/user-attachments/assets/129cad05-8c26-4d15-8f55-5bc5d82f1076" />

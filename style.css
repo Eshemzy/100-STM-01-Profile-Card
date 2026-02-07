@@ -315,3 +315,40 @@ i.fa-brands {
     padding: clamp(0.5rem, -0.104rem + 1.68vw, 0.7rem) clamp(0.7rem, 0.096rem + 1.68vw, 0.9rem);
   }
 }
+
+
+@media screen and (min-width: 769px) and (max-width: 1200px) {
+  .experience-wrapper p {
+    font-size: clamp(0.9rem, 0.543rem + 0.74vw, 1.1rem);
+  }
+  .profile__summary h1 {
+    font-size: clamp(1.5rem, 0.608rem + 1.86vw, 2rem);
+  }
+  .profile__summary p {
+    font-size: 1rem;
+  }
+  .profile__stats {
+    margin-inline: 5%;
+  }
+  .profile__contact {
+    gap: clamp(0.5rem, -0.392rem + 1.86vw, 1rem);
+  }
+  .stat {
+    padding: clamp(1rem, 0.108rem + 1.86vw, 1.5rem) 0;
+  }
+  p.stat-number,
+  .stat-label span {
+    font-size: clamp(0.9rem, 0.543rem + 0.74vw, 1.1rem);
+  }
+  .stat-label i {
+    font-size: clamp(1.3rem, 0.943rem + 0.74vw, 1.5rem);
+  }
+
+  .profile__footer {
+    gap: clamp(0.5rem, -0.392rem + 1.86vw, 1rem);
+  }
+  i.fa-brands {
+    font-size: clamp(1rem, 0.465rem + 1.11vw, 1.3rem);
+    padding: clamp(0.5rem, 0.143rem + 0.74vw, 0.7rem) clamp(0.7rem, 0.343rem + 0.74vw, 0.9rem);
+  }
+}
